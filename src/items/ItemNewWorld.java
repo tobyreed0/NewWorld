@@ -1,7 +1,9 @@
 package items;
 
 import cpw.mods.fml.relauncher.Side;
+import main.NewWorld;
 import cpw.mods.fml.relauncher.SideOnly;
+import main.NewWorldCreativeTab;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
 
