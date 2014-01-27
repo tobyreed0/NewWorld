@@ -1,4 +1,4 @@
-package main;
+package nw.main;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

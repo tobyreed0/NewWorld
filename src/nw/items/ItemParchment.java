@@ -1,4 +1,4 @@
-package items;
+package nw.items;
 
 public class ItemParchment extends ItemNewWorld{
 

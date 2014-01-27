@@ -1,4 +1,4 @@
-package reference;
+package nw.main;
 
 public class Reference {
 

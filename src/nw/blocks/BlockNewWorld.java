@@ -1,4 +1,4 @@
-package blocks;
+package nw.blocks;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -10,10 +10,10 @@ public class BlockNewWorld extends Block{
 
 	public BlockNewWorld(int par1, Material par2Material) {
 		super(par1, par2Material);
-		this.setCreativeTab(main.NewWorld.NewWorldCreativeTab);
+		this.setCreativeTab(nw.main.NewWorld.NewWorldCreativeTab);
 	}
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister par1IconRegister){
-		this.blockIcon = par1IconRegister.registerIcon(reference.Reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)));
+		this.blockIcon = par1IconRegister.registerIcon(nw.main.Reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)));
 	}
 }

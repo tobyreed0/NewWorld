@@ -1,9 +1,8 @@
-package main;
+package nw.main;
 
-import items.ItemParchment;
+import nw.items.ItemParchment;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -13,14 +12,11 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = "NewWorld", name ="Minecraft: A New World", version = "0.0.1")
+// for futrue changes of annotation @mod use the reference class
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 
 public class NewWorld {
-	
-	  
-	@Instance(value = "NewWorld")
-       public static Generic instance;
 	
 	//Items
 	public static Item parchment;
